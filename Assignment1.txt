@@ -1,3 +1,4 @@
+Q1) Identify the Data type for the Following:
 Activity	Data Type
 Number of beatings from Wife	Discrete
 Results of rolling a dice	Continues or Discrete
