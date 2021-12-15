@@ -1,4 +1,4 @@
-Q1) Identify the Data type for the Following:
+ Q1) Identify the Data type for the Following:
 Activity	Data Type
 Number of beatings from Wife	Discrete
 Results of rolling a dice	Continues or Discrete
@@ -12,7 +12,7 @@ Number of kids	Discrete
 Number of tickets in Indian railways	Discrete
 Number of times married	Discrete
 Gender (Male or Female)	Discrete
-Q1) Identify the Data type for the Following:
+
 
 Q2) Identify the Data types, which were among the following
 Nominal, Ordinal, Interval, Ratio.
@@ -37,11 +37,14 @@ Religious Preference	Nominal
 Barometer Pressure	Interval
 SAT Scores	Interval
 Years of Education	Interval
+
+
 Q3) Three Coins are tossed, find the probability that two heads and one tail are obtained?
 	Solution:
 		If three coins are tossed, the probability of 2 heads and one tail is,
 	{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT}
 P(2 H & 1 T) = (Number of interested events) / (Total number of events) = 3/8 = 0.375 = 37.5%
+
 
 Q4) Two Dice are rolled, find the probability that sum is
 a)	Equal to 1
@@ -88,6 +91,7 @@ c)	Probability that sum is divisible by 2 and 3.
 P(Sum = divisible by 2 & 3) = (Number of interested events) / (Total number of events)
 					= 24/36 = 0.6666 = 66.66%
 
+
 Q5) A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?
 	
 	Solution:
@@ -100,6 +104,7 @@ Q5) A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at rando
 	Number of interested events = Number of combinations between red and green = 6
 	P(None of the balls drawn is blue) = (Number of interested events) / (Total number of events)      
                                                                     = 6 / 16 = 0.375 = 37.5%
+
 
 Q6) Calculate the Expected number of candies for a randomly selected child 
 Below are the probabilities of count of candies for children (ignoring the nature of the child-Generalized view)
@@ -116,6 +121,7 @@ Child B – probability of having 4 candies = 0.20
 	Expected number of candies for the randomly selected child is,
 	= (1*0.015) + (4*0.20) + (3*0.65) + (5*0.005) + (6*0.01) + (2*0.120) = 3.09
 	Expected number of candies for the randomly selected child is 3.
+
 
 Q7) Calculate Mean, Median, Mode, Variance, Standard Deviation, Range &     comment about the values / draw inferences, for the given dataset
 -	For Points,Score,Weigh>
@@ -140,6 +146,7 @@ Weigh	17.84875	17.71	17.02	3.193166	1.786943	8.4
 
 •	Range is the difference between the highest and lowest value in the data set. In this data set, the range for ‘Points’, ‘Score’ and ‘Weigh’ is calculated to be 2.17, 3.19 and 8.4 respectively.
 
+
 Q8) Calculate Expected Value for the problem below
 a)	The weights (X) of patients at a clinic (in pounds), are
 108, 110, 123, 134, 135, 145, 167, 187, 199
@@ -148,6 +155,7 @@ Solution:
 There are 9 patients weight in the data set. So the probability of choosing patients randomly is 1/9.
 Expected value of the weight of the randomly chosen patient is,
 = (108+110+123+134+135+145+167+187+199) / 9 = 145.33 pounds
+
 
 Q9) Calculate Skewness, Kurtosis & draw inferences on the following data
       Cars speed and distance 
@@ -159,6 +167,7 @@ Q9) Calculate Skewness, Kurtosis & draw inferences on the following data
 	From the dataset Q9_a.csv, Skewness of speed is found to be -0.11751 which shows that mass of the distribution is concentrated on the right side (left skewed data or negatively skewed data) and kurtosis is found to be -0.50899 which implies wider peak and thinner tail in turn implies that some procedure need to be changed in the model in order to come out of negative kurtosis. And for the distance attribute skewness is found to be 0.806895 which implies maximum data points are saturated in the left side of the peak and is called as positively skewed or right skewed data. And kurtosis is 0.405053 which is positive kurtosis and implies sharp or narrow curve i.e. model is good enough.
 From the dataset Q9_b.csv, Skewness of SP is found to be 1.61145 which is right skewed or positively skewed data where maximum points are saturated in left and kurtosis is found to be 2.977329 which is positive with narrow curve, model is good enough. And for the Weight attribute skewness is found to be -0.61475 and kurtosis is 0.950291 which shows that maximum data points are saturated in right side of the peak and skewness in the left so it is called left skewed or negatively skewed data. As kurtosis is positive, everything with the model is good.
 
+
 Q10) Draw inferences about the following boxplot & histogram
 
  
@@ -166,6 +175,7 @@ Q10) Draw inferences about the following boxplot & histogram
 Solution:
 Here is the histogram we can observe that skewness is in the right side and maximum data points are situated in the left side of the peak so it is positively or right skewed data. As it is asymmetrically distributed data, it has to be converted to symmetrical data for further business decision. 
 From the box plot, we can say that most of the data points lie towards lower extreme i.e in the left of the peak if we consider the histogram and that is called as positively or right skewed data. Data is asymmetrically distributed which need to be normalized. Also there are few outliers near the upper extreme, which can be ignored when considering the range or distance between the opposite ends of the whisker.  
+
 
 Q11) Suppose we want to estimate the average weight of an adult male in Mexico. We draw a random sample of 2,000 men from a population of 3,000,000 men and weigh them. We find that the average person in our sample weighs 200 pounds, and the standard deviation of the sample is 30 pounds. Calculate 94%,98%,96% confidence interval?
 Solution:
@@ -199,6 +209,7 @@ For 96% confidence interval,
  							= 200 ± 2.0551 * 0.6708 = 200 ± 1.3785 
 	96% confidence interval is [200 – 1.3785,    200+1.3785] = [198.6214,  201.3785]
 
+
 Q12)  Below are the scores obtained by a student in tests 
 34,36,36,38,38,39,39,40,40,41,41,41,41,42,42,45,49,56
 1)	Find mean, median, variance, standard deviation.
@@ -208,21 +219,32 @@ Solution:
 1)	Mean/Average = 41   Median = 40.5    Variance = 24.1111       Standard Deviation = 4.9103
 2) Looking at the statistical values, we can say that student’s average marks is 41, whereas middle most value in the range is 40.5.  Variance is 24.11 represents the variation in marks i.e how far the marks is spread apart. Standard deviation is 4.9103 says the deviation or distance form mean. Both variance and standard deviation are the measure of dispersion which talks about variation and deviation in the marks.
  
+
 Q13) What is the nature of skewness when mean, median of data are equal?
 	Solution:
 		If mean and median of data are equal then it represents data distribution is symmetric and there is no skewness, i.e skewness = zero.
+
+
 Q14) What is the nature of skewness when mean > median?
 	Solution:
 		If mean of data is greater than median then it represents maximum data is saturated in the left side of the peak and skewness in the right side. So it is called as positively skewed or right skewed data.
+
+
 Q15) What is the nature of skewness when median > mean?
 Solution:
 		If median of data is greater than mean then it represents maximum data is saturated in the right side of the peak and skewness in the left side. So it is called as negatively skewed or left skewed data.
+
+
 Q16) What does positive kurtosis value indicates for a data?
 Solution:
 		In symmetric distribution, positive kurtosis will have sharp or narrow curve and indicates that the model built out of these data is good for taking any decisions.
+
+
 Q17) What does negative kurtosis value indicates for a data?
 Solution:
 		In symmetric distribution, negative kurtosis implies wider peak and thinner tail and indicates that the model built out of these data need some changes in the procedure in order to come out of these negative kurtosis as it affects the decisions if the same is considered.
+
+
 Q18) Answer the below questions using the below boxplot visualization.
  
 What can we say about the distribution of the data?
@@ -234,11 +256,14 @@ Solution:
 		The nature of skewness is left skewed or negatively skewed.
 		The IRQ (Inter-Quartile Range) of the data is approximately 10 – 18.3.
 
+
 Q19) Comment on the below Boxplot visualizations? 
  
 Draw an Inference from the distribution of data for Boxplot 1 with respect Boxplot 2.
 Solution:
 		In Box plot 1 and 2, the data distribution is symmetrical. But in box plot 1, data is narrowly distributed i.e we could see sharp curve which mean positive kurtosis and model is well built where as in the box plot 2, the data is widely spread and has negative kurtosis when compared to box plot 1. Model built out of 2nd data requires changes in order to come out of the negative kurtosis.
+
+
 Q 20) Calculate probability from the given dataset for the below cases
 Data _set: Cars.csv
 Calculate the probability of MPG of Cars for the below cases.
@@ -291,6 +316,8 @@ P(20 < MPG < 50) = P(MPG < 50) – P(MPG < 20) = 0.9554 – 0.0222 = 0.9332
 from scipy import stats
 stats.norm.cdf(50, loc=34.4221, scale=9.1314) – stats.norm.cdf(20, loc=34.4221, scale=9.1314
 out = 0.8988
+
+
 Q 21) Check whether the data follows normal distribution
 a)	Check whether the MPG of Cars follows Normal Distribution 
         Dataset: Cars.csv
@@ -304,6 +331,7 @@ b)	Check Whether the Adipose Tissue (AT) and Waist Circumference(Waist)  from wc
 
 	Histogram of waist circumference data implies that the data is jumbled up and adipose tissue data is right skewed data or positively skewed data as skewness is in right side of the peak and maximum data is saturated to left side of the peak.
  
+
 Q 22) Calculate the Z scores of 90% confidence interval, 94% confidence interval, 60% confidence interval 
 Solution:
 	Z-score of 90% confidence interval  (Critical value = 0.95)
@@ -321,7 +349,8 @@ Z-score of 60% confidence interval  (Critical value = 0.8)
 		stats.norm.ppf(0.8)
 			Z-score = 0.8416
 
-            Q 23) Calculate the t scores of 95% confidence interval, 96% confidence interval, 99% confidence interval for sample size of 25
+
+Q 23) Calculate the t scores of 95% confidence interval, 96% confidence interval, 99% confidence interval for sample size of 25
 Solution:
 	Samples (n) = 25,     Degree of Fredom (df) = n – 1 = 25 – 1 = 24
 
@@ -340,7 +369,8 @@ t-score of 99% confidence interval  (Critical value = 0.995)
 		stats.t.ppf(0.995, df=24)
 			t-score = 2.7969
 
-  Q 24)   A Government company claims that an average light bulb lasts 270 days. A researcher randomly selects 18 bulbs for testing. The sampled bulbs last an average of 260 days, with a standard deviation of 90 days. If the CEO's claim were true, what is the probability that 18 randomly selected bulbs would have an average life of no more than 260 days
+
+Q 24)   A Government company claims that an average light bulb lasts 270 days. A researcher randomly selects 18 bulbs for testing. The sampled bulbs last an average of 260 days, with a standard deviation of 90 days. If the CEO's claim were true, what is the probability that 18 randomly selected bulbs would have an average life of no more than 260 days
 Hint:  
    rcode   pt(tscore,df)  
  df  degrees of freedom
